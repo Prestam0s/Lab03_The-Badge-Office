@@ -1,4 +1,12 @@
-﻿Random rng = new Random();
+﻿/*
+* Name: Preston Offutt  
+* Course: CSCI 1250, Section 001
+* Assignment: Lab 3, The Badge Office
+* Date: September 30, 2026
+* Description: Prints an ID for a Student.
+*/
+
+Random rng = new Random();
 string badgeLabel = "ETSU STUDENT BADGE";
 string name = "NAME";
 string usernme = "USERNAME";
