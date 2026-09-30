@@ -1,6 +1,10 @@
 ﻿Random rng = new Random();
 string badgeLabel = "ETSU STUDENT BADGE";
-
+string name = "NAME";
+string usernme = "USERNAME";
+string iD = "ID";
+string walk = "WALK";
+string locker = "LOCKER";
 
 //get name
 Console.Write("Please enter your first and last name: ");
@@ -44,8 +48,9 @@ int timeMinutes = Convert.ToInt32(timeToFirstClass/60);
 int timeSeconds = Convert.ToInt32(timeToFirstClass % 60);
 int checkDigit = studentID % 9;
 
-Console.WriteLine($"==================================\n {badgeLabel.PadLeft(20)}\n==================================\n");
-Console.WriteLine($"NAME {fullName.PadLeft(14)}\nUSERNAME{username.PadLeft(12)}\nID{Convert.ToString(studentID).PadLeft(18)}-{checkDigit}\nLOCKER{Convert.ToString(lockerNumber).PadLeft(14)}\nWALK{Convert.ToString(timeMinutes).PadLeft(16)} min {timeSeconds} sec");
-Console.WriteLine("\n==================================");
+Console.WriteLine($"==================================\n {badgeLabel.PadLeft(25)}\n==================================\n");
+Console.WriteLine($"{name.PadRight(10)}{fullName}\n{usernme.PadRight(10)}{username}\n{iD.PadRight(10)}{studentID}-{checkDigit}");
+Console.WriteLine($"{locker.PadRight(10)}{lockerNumber}\n{walk.PadRight(10)}{timeMinutes} min {timeSeconds} sec");
+Console.WriteLine("==================================");
 
 
