@@ -22,5 +22,26 @@ Console.WriteLine($"Name on Badge: {fullName}\n Username: {username}\n Initials:
 //Create Student ID and Locker
 int studentID = rng.Next(100000, 1000000);
 int lockerNumber = rng.Next(1, 501);
-Console.WriteLine($"Student ID #: {studentID}\n Locker: {lockerNumber}");
+
+
+//Find Distance to students first class
+Console.Write("Please provie your Dorm x Location on the Campus map: ");
+double dormX = Convert.ToInt32(Console.ReadLine());
+Console.Write("Please provie your Dorm Y Location on the Campus map: ");
+int dormY = Convert.ToInt32(Console.ReadLine());
+Console.Write("Please provie the X Location of your first class on the Campus map: ");
+int firstClassX = Convert.ToInt32(Console.ReadLine());
+Console.Write("Please provie the Y Location of your first class on the Campus map: ");
+double firstClassY = Convert.ToInt32(Console.ReadLine());
+Console.Write("What is your walking speed in feet per second? ");
+int walkingSpeed = Convert.ToInt32(Console.ReadLine());
+
+double distance = Math.Sqrt(Math.Pow((firstClassX - dormX),2) + Math.Pow((firstClassY - dormY),2));
+double timeToFirstClass = Math.Round(distance/walkingSpeed);
+
+int timeMinutes = Convert.ToInt32(timeToFirstClass/60);
+int timeSeconds = Convert.ToInt32(timeToFirstClass % 60);
+
+Console.WriteLine($"==================================")
+
 
