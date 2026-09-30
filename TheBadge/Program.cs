@@ -18,3 +18,9 @@ string initials = $"{firstName.Substring(0,1)}.{lastName.Substring(0,1)}.";
 int countOfLastName = lastName.Length;
 
 Console.WriteLine($"Name on Badge: {fullName}\n Username: {username}\n Initials: {initials}\n Letters in last name: {countOfLastName}");
+
+//Create Student ID and Locker
+int studentID = rng.Next(100000, 1000000);
+int lockerNumber = rng.Next(1, 501);
+Console.WriteLine($"Student ID #: {studentID}\n Locker: {lockerNumber}");
+
