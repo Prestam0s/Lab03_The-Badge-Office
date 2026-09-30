@@ -1,0 +1,14 @@
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\obj\Debug\net10.0\TheBadge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\obj\Debug\net10.0\TheBadge.AssemblyInfoInputs.cache
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\obj\Debug\net10.0\TheBadge.AssemblyInfo.cs
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\obj\Debug\net10.0\TheBadge.csproj.CoreCompileInputs.cache
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\bin\Debug\net10.0\TheBadge.exe
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\bin\Debug\net10.0\TheBadge.deps.json
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\bin\Debug\net10.0\TheBadge.runtimeconfig.json
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\bin\Debug\net10.0\TheBadge.dll
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\bin\Debug\net10.0\TheBadge.pdb
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\obj\Debug\net10.0\TheBadge.dll
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\obj\Debug\net10.0\refint\TheBadge.dll
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\obj\Debug\net10.0\TheBadge.pdb
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\obj\Debug\net10.0\TheBadge.genruntimeconfig.cache
+C:\Users\OFFUTTP\CSCI1250\Lab03_The-Badge-Office\TheBadge\obj\Debug\net10.0\ref\TheBadge.dll
